@@ -1,0 +1,28 @@
+---
+name: AquarelAdmin
+main: AquarelAdmin\AquarelAdmin
+author: KingDeadKnight
+version: 0.0.1
+api: [2.0.0, 1.13.0]
+
+commands:
+  aqua:
+    description: Utilise /aqua help pour connaître les commandes
+    permission: aqua.command
+
+permissions:
+  aqua.command:
+    default: true
+    description: "Autorise les aqua commands"
+  aqua.addword:
+    default: op
+    description: "Ban un mot"
+  aqua.removeword:
+    default: op
+    description: "Unban un mot"
+  aqua.vanish:
+    default: op
+    description: "Vanish toi"
+  aqua.unvanish:
+    default: op
+    description: "Unvanish toi"
