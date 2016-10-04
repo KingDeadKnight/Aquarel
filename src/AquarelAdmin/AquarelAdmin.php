@@ -61,7 +61,7 @@ class AquarelAdmin extends PluginBase implements Listener{
 		$this->getLogger()->info(TF::RED."AquarelAdmin disabled");
 		
 	}
-	
+	//test//
 	public function getOwner(){
 		return $this->plugin;
 	}
